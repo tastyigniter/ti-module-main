@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
-class Auth extends IlluminateFacade
+class Captcha extends IlluminateFacade
 {
     /**
      * Get the registered name of the component.
@@ -11,6 +11,6 @@ class Auth extends IlluminateFacade
      */
     protected static function getFacadeAccessor()
     {
-        return 'main.auth';
+        return 'captcha';
     }
 }
